@@ -1,0 +1,83 @@
+=== Agenda ===
+
+Was ist AsciiDoc?
+Was ist AsciiDoctor?
+
+Ziel des Share-Its
+Vorteile von AsciiDoc
+Was kann es nicht?
+
+
+Vorteile von AsciiDoc
+* Kostenlos
+* Schnell erlernbar / intuitiv
+* sehr gut lesbar für den Menschen, ohne extra Werkzeuge
+* Versionsierungsfreundlich / gut mergebar
+* greppable
+* generierbar
+* Eine Quelle, viele Ausgaben
+* nicht nur für doku (präsi, todos, statische webseite uws.)
+* community
+* Unterstützung von Build-Systemen/Tools (Mvn, gradle, npm)
+
+Was kann es nicht
+* Ecken & Kanten (Spaces vs. Lines)
+* nicht alle Features für alle Ausgabe-Formate
+
+
+Interessantes
+* Textformatierung / -strukturierung
+* Listen (Sortiert, Unsortiert, Todos)
+* Tabellen
+* Links
+* Bilder
+* Includes
+* Quellcode einbetten
+
+* Viewer / Editoren
+* Pugins: diagramme, screenshot uvm.
+* Ausgabe-Formate: html, pdf, DocBook, slides/revealjs, LaTeX, confluence, ePub
+
+
+Referenzbeispiele / Inspirationsquellen
+http://asciidoctor.org/
+http://mrhaki.blogspot.de/
+http://gist.asciidoctor.org/
+http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/
+http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/
+https://github.com/asciidoctor/asciidoctorj-screenshot
+
+
+== Markdown
+- keine includes
+- kein inhaltsverzeichnis
+
+== Grafiken
+* ditaa
+* graphviz dot
+* plant uml
+* uvm.
+
+
+
+////
+
+= Share-It
+:icons: font
+
+TIP: oink 
+
+icon:wrench[2x]
+
+
+[cols="1,1,1a,1"]
+|===
+|asciidoc|asciidoctor
+|
+| * asciidoctor
+ * asciidoctorJ
+ * asciidoctor.js
+|===
+
+////
+

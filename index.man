@@ -1,0 +1,103 @@
+'\" t
+.\"     Title: Share-It
+.\"    Author: [see the "AUTHORS" section]
+.\" Generator: Asciidoctor 1.5.6.1
+.\"      Date: 2017-11-23
+.\"    Manual: \ \&
+.\"    Source: \ \&
+.\"  Language: English
+.\"
+.TH "SHARE\-IT" "1" "2017-11-23" "\ \&" "\ \&"
+.ie \n(.g .ds Aq \(aq
+.el       .ds Aq '
+.ss \n[.ss] 0
+.nh
+.ad l
+.de URL
+\\$2 \(laURL: \\$1 \(ra\\$3
+..
+.if \n[.g] .mso www.tmac
+.LINKSTYLE blue R < >
+.if n \{\
+.sp
+.\}
+.RS 4
+.it 1 an-trap
+.nr an-no-space-flag 1
+.nr an-break-flag 1
+.br
+.ps +1
+.B Tip
+.ps -1
+.br
+.sp
+oink
+.sp .5v
+.RE
+.sp
+[wrench]
+.SH "AGENDA"
+.sp
+.RS 4
+.ie n \{\
+\h'-04' 1.\h'+01'\c
+.\}
+.el \{\
+.sp -1
+.IP " 1." 4.2
+.\}
+Was ist Ascii\fBDoc\fP?
+.sp
+.RS 4
+.ie n \{\
+\h'-04' 1.\h'+01'\c
+.\}
+.el \{\
+.sp -1
+.IP " 1." 4.2
+.\}
+Was ist Ascii\fBDoctor\fP?
+.RE
+.RE
+.sp
+.RS 4
+.ie n \{\
+\h'-04' 2.\h'+01'\c
+.\}
+.el \{\
+.sp -1
+.IP " 2." 4.2
+.\}
+Warum AsciiDoc?
+.RE
+.sp
+.RS 4
+.ie n \{\
+\h'-04' 3.\h'+01'\c
+.\}
+.el \{\
+.sp -1
+.IP " 3." 4.2
+.\}
+Wie funktioniert AsciiDoc
+.RE
+.TS
+allbox tab(:);
+lt lt lt lt.
+T{
+.sp
+asciidoc
+T}:T{
+.sp
+asciidoctor
+T}:T{
+.sp
+
+T}:T{
+.sp
+* asciidoctor
+ * asciidoctorJ
+ * asciidoctor.js
+T}
+.TE
+.sp

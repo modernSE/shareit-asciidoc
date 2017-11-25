@@ -1,0 +1,105 @@
+
+== Diagramme
+
+Am Beispiel des Aufbaus des AsciiDoc-Flows
+
+[plantuml]
+----
+object AsciiDoc
+object AsciiDoctor
+object ObjektGraph
+
+object Backends
+object LaTeX
+object PDF
+object HTML5
+object RevealJS
+object DocBook
+object uvm
+
+object "Diagramm Plugins" as dia
+object "Screenshot Plugin" as screenshot
+
+AsciiDoc - AsciiDoctor
+AsciiDoctor - ObjektGraph
+ObjektGraph - Backends
+
+Backends -- HTML5
+Backends -- PDF
+Backends -- LaTeX
+Backends -- RevealJS
+Backends -- DocBook
+Backends -- uvm
+
+AsciiDoctor -- dia
+AsciiDoctor -- screenshot
+
+----
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////
+== Diagramme
+
+[plantuml]
+----
+
+class BlockProcessor
+class DiagramBlock
+class DitaaBlock
+class PlantUmlBlock
+
+BlockProcessor <|-- DiagramBlock
+DiagramBlock <|-- DitaaBlock
+DiagramBlock <|-- PlantUmlBlock
+
+
+----
+
+== Vorraussetzungen
+----
+$ gem install asciidoctor-diagram
+$ gem install graphviz
+----
+
+////

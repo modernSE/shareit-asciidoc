@@ -1,0 +1,65 @@
+
+:icons: font
+
+== Syntax Beispiele
+
+Die vollständige AsciiDoc-Erfahrung findest di hier: +
+http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Syntax-Quick-Reference]
+
+== Textformatierung
+
+Alles was das Herz begehrt: +
+*fett* _kursiv_ +monospaced+ ^hochgestellt^ und ~subscript~.
+
+== Listen
+
+.unsortierte Listen
+* Foo
+* Bar
+
+.sortierte Listen
+. eins
+. zwo
+
+.Checklisten
+* [ ] Todo
+* [x] Done
+
+== Tabellen
+
+=== Einfache Werte-Tabellen
+
+|===
+|spalte 1 | spalte 2| spalte 3
+|wert  1  | wert 2  | wert 3
+|usw.     |         |
+|===
+
+=== Komplexere Tabellen
+
+[cols="3a,1,1"]
+|===
+|haupt|neben1|neben2
+| * Nested List
+* oink
+| Tabellen-Zeilen können
+| über mehrere 
+Quelltext-Zeilen 
+verteilt 
+werden
+|===
+
+
+=== Highlights
+
+TIP: Pro tip...
+
+IMPORTANT: Don't forget...
+
+WARNING: Watch out for...
+
+CAUTION: Ensure that... 
+
+=== Icon fonts nutzen
+
+Zum Beispiel einen icon:wrench[2x] für Einstellungsdinge :d

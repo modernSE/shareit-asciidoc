@@ -1,0 +1,108 @@
+
+:source-highlighter: coderay
+:coderay-css: style
+
+== Quellcode einbetten
+
+=== Inline
+
+Im normalen Text kann durch \`Backticks` inline 
+z.B. auf `Klassen` oder `Funktionsnamen` Bezug genommen werden.
+
+
+=== Embedded Source
+
+Auch ganze Code-Blöcke können direkt in _AsciiDoc_-Dateien
+eingebettet und mit Syntax-Highlighting dargestellt werden.
+
+[source, java]
+----
+public class void Foo(){
+    System.out("Bar");
+};
+----
+
+=== External Source
+
+Aber auch aus Produktivcode (oder besser aus euren Tests) lassen
+sich Auszüge in die Dokumentation mit aufnehmen.
+Vorteil hierbei: Das Code-Beispiel is garantiert compilierbar und stets aktuell,
+wenn auch der beschreibende Text das potenziell nicht mehr ist.
+
+[source, java]
+----
+include::demo.java[tags=foo]
+----
+<1> Hier wird _"Bar"_ ausgegeben.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+////
+:source-highlighter: coderay
+:coderay-css: style
+
+
+== Java
+
+[source,java]
+----
+public class void Foo(){
+    system.out("Bar");
+};
+----
+
+[source,java]
+----
+include::demo.java[tags=documentation]
+----
+
+=== Verraussetzungen
+----
+$ gem install coderay
+----
+
+////

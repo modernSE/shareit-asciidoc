@@ -1,0 +1,67 @@
+= Principles of Software Engineering
+
+== The SOLID Principles
+
+=== The one constant in Software Development is
+
+=== Change
+
+[%notitle]
+=== Design Priciples
+
+image::WordCloudPrinciples.png[size=cover, background]
+[%notitle]
+=== Single Responsibility Principle
+
+image::SingleResponsibilityPrinciple.jpg[size=cover, background]
+
+=== Single Responsibility Principle
+A class should have only one reason to change
+
+[%notitle]
+=== Open-Closed Principle
+
+image::OpenClosedPrinciple.jpg[size=cover, background]
+
+=== Open-Closed Principle
+Modules should be open for extension but closed for modification
+
+[%notitle]
+=== Liskov Substitution Principle
+
+image::LiskovSubstitutionPrinciple.jpg[size=cover, background]
+
+=== Liskov Substitution Principle
+An object of type T may be substituted with any object of a subtype S
+
+[%notitle]
+=== Interface Segregation Principle
+
+image::InterfaceSegregationPrinciple.jpg[size=cover, background]
+
+=== Interface Segregation Principle
+no client should be forced to depend on methods it does not use
+
+[%notitle]
+=== Dependency Inversion Principle
+
+image::DependencyInversionPrinciple.jpg[size=cover, background]
+
+=== Dependency Inversion Principle
+High-level modules should not depend on low-level modules. Both should depend on abstractions.
+
+== Other Principles
+
+=== KISS
+Keep it simple, stupid!
+
+=== YAGNI
+You ain't gonna need it!
+
+=== DRY
+Don't repeat yourself!
+
+=== UVM
+* Law of Demeter
+* Principle of least surprise
+* ...

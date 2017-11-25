@@ -1,0 +1,79 @@
+// Eingebaute Attribute
+:toc:
+:toc-title: Agenda
+:author: Lukas
+:imagesdir: img
+:sectnums: // Nummerierte Überschriften
+:icons: font 
+
+//:docinfo1: // für eigene css-Stylesheets, s. docinfo.html
+
+// Eigene Attribute
+:topic: AsciiDoc
+
+= Share-It {topic}
+
+== Was ist AsciiDoc?
+
+AsciiDoc ist eine plain text markup language.
+Der formale Standard, die Syntax, wenn man so will.
+
+=== Was ist AsciiDoctor?
+
+AciiDoctor ist die Implementierung von AsciiDoc.
+Die Referenzimplementierung ist in Ruby geschrieben, es gibt aber auch Varianten für Jave und JavaScript.
+
+== Warum Asciidoc?
+
+image::dreams.jpg[geek-n-poke, 250, 0, role="right"]
+
+* Aus einer einzigen Quelle, können viele verschiedene Ausgabe-Formate erstellt werden. +
+Darunter bspw: HTML5, PDF, RevealJS-Präsentationen, LeTeX, DocBook, Confluence, manpages uvm.
+
+* Einfach zugänglich und adoptierbar, d.h. 
+** Ohne Spezialwerkzeuge gut lesbar und editierbar.
+** Gut versionierbar / mergebar / auf gerrit direkt editierbar
+** Gut integrierbar in vorhandene Build-Prozesse (Maven, gradle, npm)
+** Gute Unterstützung von vielen Text-Editoren und IDEs.
+** Kostenlos
+** schnell erlernbar
+
+* Erweiterbar
+** durch Extensions, also eigene Sprachelemente, 
+   die dann in die interne Objekt-Graph Representation übersetzt werden
+   und dann von alle bacrkends verwendet werden können.
+*** z.B. Diagramme (PlantUML, ditaa usw.)
+*** z.B. asciidoc-Screenshot, WebDriver basierte autom. Screenshot-Tool
+** durch eigene Backends, also volle Kontrolle über die Ausgabe.
+*** z.B. RevealJS, für Presentationen
+
+* Fühlt sich wie richtige Software-Entwicklung an
+** Try & Error
+** Unterstützung von Variablen & IF-Bedingungen
+** Ähnliche Werkzeug-Ketten
+** Continious Integration/Documentation
+** Einbettung von Quell-Code
+** Kommentare // :D
+
+* Vielseitig einsetzbar
+** Als Generator statischer Webseiten
+** Für PDF-Dokumente
+** Präsentationen
+** Online-Hilfen
+** uvm.
+
+include::java.adoc[]
+
+include::syntax-examples.adoc[]
+
+include::plantuml.adoc[]
+
+
+== Quellen
+.Referenzbeispiele / Inspirationsquellen
+* http://asciidoctor.org/[Offizielle Homepage]
+* http://gist.asciidoctor.org/[Online AsciiDoc Editor]
+* http://asciidoctor.org/docs/editing-asciidoc-with-live-preview/[Live Preview]
+* http://asciidoctor.org/docs/asciidoc-syntax-quick-reference/[Syntax-Quick-Reference]
+* http://mrhaki.blogspot.de/[MrHaki]
+* link:https://github.com/asciidoctor/asciidoctorj-screenshot[WebDriver Screenshot PLugin]
